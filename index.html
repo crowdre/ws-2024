@@ -1,204 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>CrowdRE Workshop 2024</title>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Responsive HTML5 Website landing Page for Developers">
-    <meta name="author" content="3rd Wave Media">    
-    <link rel="shortcut icon" href="favicon.ico">  
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
-    <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-    <!-- github acitivity css -->
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-    <link rel="stylesheet" href="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.css">
-    
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+  <title>CrowdRE Workshop 2024</title>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Responsive HTML5 Website landing Page for Developers">
+  <meta name="author" content="3rd Wave Media">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+  <!-- Plugins CSS -->
+  <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+  <!-- github acitivity css -->
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+  <link rel="stylesheet" href="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.css">
+
+  <!-- Theme CSS -->
+  <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <script>
+  <script>
 
-     var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-23019901-1']);
-      _gaq.push(['_setDomainName', "bootswatch.com"]);
-        _gaq.push(['_setAllowLinker', true]);
-      _gaq.push(['_trackPageview']);
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-23019901-1']);
+    _gaq.push(['_setDomainName', "bootswatch.com"]);
+    _gaq.push(['_setAllowLinker', true]);
+    _gaq.push(['_trackPageview']);
 
-     (function() {
-       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-     })();
+    (function () {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
 
-    </script>
-  </head>
+  </script>
+</head>
 
-  <body>
-    <!-- ******HEADER****** --> 
-    <header class="header">
-      <div class="container">
+<body>
+  <!-- ******HEADER****** -->
+  <header class="header">
+    <div class="container">
 
-        <div class="navbar navbar-default navbar-fixed-top">
-          <div class="container">
-            <div class="navbar-header">
-              <a href="./index.html" class="navbar-brand"><strong>CrowdRE 2024</strong></a>
-              <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
-            <div class="navbar-collapse collapse" id="navbar-main">
-              <ul class="nav navbar-nav">
-                <li>
-                  <a href="./submissions.html">Submissions</a>
-                </li>
-                <li>
-                  <a href="./res/cfp.pdf" target="_blank">CfP</a>
-                </li>
-                <li>
-                  <a href="./program.html">Program</a>
-                </li>
-                <li>
-                  <a href="./committees.html">Committees</a>
-                </li>
-                <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" id="previous">Previous <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu" aria-labelledby="previous">
-	            <li><a href="https://crowdre.github.io/ws-2023/" target="_blank">CrowdRE 2023</a></li>
-		    <li><a href="https://crowdre.github.io/ws-2022/" target="_blank">CrowdRE 2022</a></li>
-                    <li><a href="https://crowdre.github.io/ws-2021/" target="_blank">CrowdRE 2021</a></li>
-                    <li><a href="https://crowdre.github.io/ws-2020/" target="_blank">CrowdRE 2020</a></li>
-                    <li><a href="https://crowdre.github.io/ws-2019/" target="_blank">CrowdRE 2019</a></li>
-		    <li><a href="http://aire18.aset.tu-berlin.de/" target="_blank">AIRE 2018 with CrowdRE</a></li>
-                    <li><a href="https://crowdre.github.io/ws-2017/" target="_blank">CrowdRE 2017</a></li>
-                  </ul>
-                </li>
-                <p class="navbar-text"><a href="https://twitter.com/CrowdreWs" target="_blank"><img src="./res/twitter.png" width="20" height="20" alt="Follow CrowdRE on Twitter"></a>&nbsp;<a href="https://www.facebook.com/CrowdreWs/" target="_blank"><img src="./res/facebook.png" width="20" height="20" alt="Follow CrowdRE on Facebook"></a></p>
-          </ul>
-              <ul class="nav navbar-nav navbar-right" style="background-color:#de8a53;">
-                <li><a href="https://easychair.org/conferences/?conf=crowdre2024" target="_blank" style="color:#ffffff;"><b>&nbsp;Submit&nbsp;</b></a></li>
-              </ul>
-            </div>
+      <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <a href="./index.html" class="navbar-brand"><strong>CrowdRE 2024</strong></a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="navbar-collapse collapse" id="navbar-main">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="./submissions.html">Submissions</a>
+              </li>
+              <li>
+                <a href="./res/cfp.pdf" target="_blank">CfP</a>
+              </li>
+              <li>
+                <a href="./program.html">Program</a>
+              </li>
+              <li>
+                <a href="./committees.html">Committees</a>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" id="previous">Previous <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="previous">
+                  <li><a href="https://crowdre.github.io/ws-2023/" target="_blank">CrowdRE 2023</a></li>
+                  <li><a href="https://crowdre.github.io/ws-2022/" target="_blank">CrowdRE 2022</a></li>
+                  <li><a href="https://crowdre.github.io/ws-2021/" target="_blank">CrowdRE 2021</a></li>
+                  <li><a href="https://crowdre.github.io/ws-2020/" target="_blank">CrowdRE 2020</a></li>
+                  <li><a href="https://crowdre.github.io/ws-2019/" target="_blank">CrowdRE 2019</a></li>
+                  <li><a href="http://aire18.aset.tu-berlin.de/" target="_blank">AIRE 2018 with CrowdRE</a></li>
+                  <li><a href="https://crowdre.github.io/ws-2017/" target="_blank">CrowdRE 2017</a></li>
+                </ul>
+              </li>
+              <p class="navbar-text"><a href="https://twitter.com/CrowdreWs" target="_blank"><img
+                    src="./res/twitter.png" width="20" height="20" alt="Follow CrowdRE on Twitter"></a>&nbsp;<a
+                  href="https://www.facebook.com/CrowdreWs/" target="_blank"><img src="./res/facebook.png" width="20"
+                    height="20" alt="Follow CrowdRE on Facebook"></a></p>
+            </ul>
+            <ul class="nav navbar-nav navbar-right" style="background-color:#de8a53;">
+              <li><a href="https://easychair.org/conferences/?conf=crowdre2024" target="_blank"
+                  style="color:#ffffff;"><b>&nbsp;Submit&nbsp;</b></a></li>
+            </ul>
           </div>
         </div>
-
-        <div class="row">
-          <div class="col-md-9">
-            <br>
-            <h1 class="name"><span style="color:#1da1f2; font-size:18pt;">The 8th International Workshop on Crowd-Based
-Requirements Engineering</span><span style="color:#de8a53; font-size:18pt;"> (CrowdRE'24)</span></h1>
-          </div>
-          <div class="col-md-3">
-            <br>
-            <br>
-            <strong><p class="lead">24 June 2024<br><span style="font-size: 10pt">Held in Reykjavik, Iceland<br>In conjunction with <a href="https://conf.researchr.org/home/RE-2024" target="_blank">RE 2024</a></span></p></strong>
-          </div>
-        </div>
-
-      </div><!--//container-->
-    </header><!--//header-->
-
-    <div class="container sections-wrapper">
+      </div>
 
       <div class="row">
         <div class="col-md-9">
-        <section class="about section">
-        <div class="section-inner">
-          <h2 class="heading">Overview</h2>
-          <p style="text-align:justify">
-            The rise of mobile, social, cloud, and crowd-sourcing applications requires Requirements Engineering (RE) to adapt. The traditional methods of RE are very inefficient in situations involving thousands to millions of current and potential users of a (software) product. The crowd is an interesting source for RE because it produces user feedback in texts and usage data. Being able to respond quickly, effectively, and iteratively to the requirements, problems, wishes, and needs identified in user feedback can increase a product’s success. Crowd-Based RE (CrowdRE) seeks to provide RE with suitable means for this crowd paradigm.
-          </p>
-          <p style="text-align:justify">
-            The Eighth Workshop on Crowd-Based Requirements Engineering (CrowdRE'24) focuses on <b>Exploiting Large Language Models and Generative AI in CrowdRE</b>, and on <b>Broadening the Reach and Perception of CrowdRE</b>.
-	  </p>
-        
-          
-          
-          <!--
-          <p style="text-align:justify">
-            CrowdRE'24 builds on the successes of its previous editions, which unified the visions into a coherent RE approach (CrowdRE'15), established a roadmap and shared resources (<a href="https://crowdre.github.io/ws-2017/" target="_blank">CrowdRE'17</a>), strengthened relationships to artificial intelligence techniques (CrowdRE as special focal topic of <a href="https://aire18.aset.tu-berlin.de" target="_blank">AIRE'18</a>), redefined its scope (<a href="https://crowdre.github.io/ws-2019/" target="_blank">CrowdRE'19</a>), expanded into digital transformation territory (<a href="https://crowdre.github.io/ws-2020/" target="_blank">CrowdRE'20</a>), strengthened the interface between CrowdRE and industry practice, especially in the era of the COVID-19 pandemic (<a href="https://crowdre.github.io/ws-2021/" target="_blank">CrowdRE'21</a>), and investigated the motivations and human values of the crowd members concerning active and continuous participation in CrowdRE (<a href="https://crowdre.github.io/ws-2022/" target="_blank">CrowdRE'22</a>).
-          </p><be>
-          
-          <p style="font-size:18px"><b>Keynote Speaker: Barbara Paech</b></p>
-          
-            <p style="text-align:justify">
-            <div class="col-md-4">
-		  <img src="./res/paech.jpg" class="img-thumbnail" alt="" width=400/>
-            </div>
-		<b><i>Titel:</i></b> <p style="text-align:justify"><a href="./res/CrowdREKeynote_final.pdf" target="_blank">Reflections on Human Values in Crowd-based Requirements Engineering</a></p>
-              <b><i>Abstract:</i></b> <p style="text-align:justify">Human values play different roles in CrowdRE. CrowdRE platform developers and requirements engineers influence how human values of the CrowdRE stakeholders are respected in their communication with each other and with the requirements engineers. Furthermore, they influence how the human values of the stakeholders concerning the software to be developed are elicited and specified. The stakeholders decide how openly they bring their human values into the crowd. In this talk, I will reflect on human values in RE in general. Based on our experiences of developing and using  a feedback app for elderly stakeholders I will discuss which role human values can and should play in CrowdRE.</p>
-                <b><i>Bio:</i></b> <p style="text-align:justify">Dr. Barbara Paech holds the chair "Software Engineering“  at Heidelberg University, Germany. Her teaching and research focuses on methods and processes to ensure quality of software with adequate effort. Since many years, she is particularly active in the area of requirements and rational engineering focusing on the humans involved. Based on her experiences as department head at the Fraunhofer Institute for Experimental Software Engineering her research is often empirical and in close cooperation with industry. She is founding member of the International Requirements Engineering Board (IREB) and member of the Computer Science review board of the German National Research Funding Society (DFG).</p>
-            <br><i>Photo: UHH/von Wieding</i>
-            </p>  -->
-		<br>
-              
-          <p>More information:</p>
-          <ul>
-            <li><a href="./submissions.html" target="_blank">Submissions</a>: Workshop topics, key questions and submission details</li>
-            <li><a href="./program.html" target="_blank">Program and venue</a>: Workshop format and location</li>
-            <li><a href="./res/cfp.pdf" target="_blank">Call for papers (PDF)</a></li>	   
-            <li><a href="https://easychair.org/conferences/?conf=crowdre2024" target="_blank">Submit your paper (EasyChair)</a></li>
-          </ul>
-          <p>
-          <img src="./res/uni.jpg" class="img-thumbnail" alt="Reykjavík University"/>
-          </p>
-          <span style="font-size: 9pt">Photo: Jeff Hitchcock, <a href="https://commons.wikimedia.org/wiki/File:Reykjav%C3%ADk_University_(31811484225).jpg" target="_blank">Wikimedia Commons</a></span>
+          <br>
+          <h1 class="name"><span style="color:#1da1f2; font-size:18pt;">The 8th International Workshop on Crowd-Based
+              Requirements Engineering</span><span style="color:#de8a53; font-size:18pt;"> (CrowdRE'24)</span></h1>
         </div>
-        </section>
-        </div>
-
         <div class="col-md-3">
-          
-          <div class="panel panel-default">
-            <div class="panel-heading"><b>Important Dates</b></div>
-            <div class="panel-body">
-                <ul class="list-unstyled">
-                  <li><span style="font-size: 9pt"><b>Abstract Submission:</b> 20 March 2024</span></li>
-                  <li><span style="font-size: 9pt"><b>Paper Submission:</b><font color="de8a53" /> 27 March 2024</font></span></li>
-                  <li><span style="font-size: 9pt"><b>Notification:</b> 29 April 2024</span></li>
-                  <li><span style="font-size: 9pt"><b>Camera Ready:</b> 06 May 2024</span></li>
-                  <li><span style="font-size: 9pt"><b>Workshop:</b><font color="de8a53" /> 24 June 2024</font></span></li>
-            </ul>
-                <p>All deadlines at 23:59:59 <a href="https://www.timeanddate.com/time/zones/aoe" target="_blank">AoE</a>.</p>
-            </div>
-          </div>
-          
-         <!--<div class="panel panel-default">-->
-            <!--<div class="panel-body">-->
-              <!--<a class="twitter-timeline"  href="https://twitter.com/search?q=%20%23CrowdRE" data-widget-id="841861466445737984">Tweets about #CrowdRE</a>
-              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>-->
-            <!--<a class="twitter-timeline" href="https://twitter.com/CrowdreWs?ref_src=twsrc%5Etfw" data-height="250px">Tweets by CrowdreWs</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-           <!--</div>-->
-         <!--</div>-->
-		  
+          <br>
+          <br>
+          <strong>
+            <p class="lead">24 June 2024<br><span style="font-size: 10pt">Held in Reykjavik, Iceland<br>In conjunction
+                with <a href="https://conf.researchr.org/home/RE-2024" target="_blank">RE 2024</a></span></p>
+          </strong>
         </div>
       </div>
+
+    </div><!--//container-->
+  </header><!--//header-->
+
+  <div class="container sections-wrapper">
+
+    <div class="row">
+      <div class="col-md-9">
+        <section class="about section">
+          <div class="section-inner">
+            <h2 class="heading">Overview</h2>
+            <p style="text-align:justify">
+              The rise of mobile, social, cloud, and crowd-sourcing applications requires Requirements Engineering (RE)
+              to adapt. The traditional methods of RE are very inefficient in situations involving thousands to millions
+              of current and potential users of a (software) product. The crowd is an interesting source for RE because
+              it produces user feedback in texts and usage data. Being able to respond quickly, effectively, and
+              iteratively to the requirements, problems, wishes, and needs identified in user feedback can increase a
+              product’s success. Crowd-Based RE (CrowdRE) seeks to provide RE with suitable means for this crowd
+              paradigm.
+            </p>
+            <p style="text-align:justify">
+              The Eighth Workshop on Crowd-Based Requirements Engineering (CrowdRE'24) focuses on <b>Exploiting Large
+                Language Models and Generative AI in CrowdRE</b>, and on <b>Broadening the Reach and Perception of
+                CrowdRE</b>.
+            </p>
+
+
+
+            <!--
+          <p style="text-align:justify">
+            CrowdRE'24 builds on the successes of its previous editions, which unified the visions into a coherent RE approach (CrowdRE'15), established a roadmap and shared resources (<a href="https://crowdre.github.io/ws-2017/" target="_blank">CrowdRE'17</a>), strengthened relationships to artificial intelligence techniques (CrowdRE as special focal topic of <a href="https://aire18.aset.tu-berlin.de" target="_blank">AIRE'18</a>), redefined its scope (<a href="https://crowdre.github.io/ws-2019/" target="_blank">CrowdRE'19</a>), expanded into digital transformation territory (<a href="https://crowdre.github.io/ws-2020/" target="_blank">CrowdRE'20</a>), strengthened the interface between CrowdRE and industry practice, especially in the era of the COVID-19 pandemic (<a href="https://crowdre.github.io/ws-2021/" target="_blank">CrowdRE'21</a>), and investigated the motivations and human values of the crowd members concerning active and continuous participation in CrowdRE (<a href="https://crowdre.github.io/ws-2022/" target="_blank">CrowdRE'22</a>).
+          </p><be> -->
+
+            <h2 class="heading">Keynote Speaker: Jennifer Horkoff</h2>
+
+            <!--<p style="text-align:justify">-->
+            <div class="col-md-4">
+              <a href="https://research.chalmers.se/en/person/jenho" target="_blank">
+                <img src="./res/jenho.webp" class="img-thumbnail" alt="" width=400 />
+              </a>
+            </div>
+            <p><b>Title:</b> Requirements Engineering and Machine Learning: Intentionality and the Crowd</p>
+            <!--<p style="text-align:justify"><a href="./res/CrowdREKeynote_final.pdf" target="_blank">Reflections on Human
+                Values in Crowd-based Requirements Engineering</a></p>-->
+            <p style="text-align:justify"><b>Abstract:</b> Crowd-based requirements engineering has a history of
+              gathering requirements from current or future users of software, typically some level of automated
+              analysis. In parallel, the rise of machine learning usage and capabilities has forced us to rethink how we
+              can conduct requirements engineering for systems with machine learning, and how advanced machine learning
+              can be used to help with requirements tasks. This keynote will explore the intersection of requirements
+              engineering and machine learning with crowd-based engineering. Does big data emulate the crowd? Must the
+              crowd be "intentional", in that they know they are providing feedback for a particular application? We aim
+              to consider both crowd-based requirements engineering for systems with machine learning and using machine
+              learning as "the crowd" for possible elicitation of requirements. </p>
+            <p style="text-align:justify"><b>Bio:</b> Jennifer Horkoff is an Associate Professor at the Interaction
+              Design and Software Engineering division in the Computer Science and Engineering Department shared by
+              Chalmers University of Technology and the University of Gothenburg, Sweden. Dr. Horkoff is currently
+              involved in projects investigating requirements engineering for machine learning, supported by the Swedish
+              Research Council and Vinnova. She has been an author or co-author of more than 100 papers in
+              peer-reviewed journals, conferences, or workshops. Jennifer has been a co-program chair of RE, REFSQ, ER
+              and PoEM, and has served on program committees and organizing committees of several international
+              conferences (e.g., ICSE, RE, ER, MODELS, CAiSE), and has been a (co-) organizer of several international
+              workshops.</p>
+            <!--</p> -->
+            <br>
+
+            <h2 class="heading">More Information</h2>
+            <p>Find more information under the following links:</p>
+            <ul>
+              <li><a href="./submissions.html" target="_blank">Submissions</a>: Workshop topics, key questions and
+                submission details</li>
+              <li><a href="./program.html" target="_blank">Program and venue</a>: Workshop format and location</li>
+              <li><a href="./res/cfp.pdf" target="_blank">Call for papers (PDF)</a></li>
+              <li><a href="https://easychair.org/conferences/?conf=crowdre2024" target="_blank">Submit your paper
+                  (EasyChair)</a></li>
+            </ul>
+            <p>
+              <img src="./res/uni.jpg" class="img-thumbnail" alt="Reykjavík University" />
+            </p>
+            <span style="font-size: 9pt">Photo: Jeff Hitchcock, <a
+                href="https://commons.wikimedia.org/wiki/File:Reykjav%C3%ADk_University_(31811484225).jpg"
+                target="_blank">Wikimedia Commons</a></span>
+          </div>
+        </section>
+      </div>
+
+      <div class="col-md-3">
+
+        <div class="panel panel-default">
+          <div class="panel-heading"><b>Important Dates</b></div>
+          <div class="panel-body">
+            <ul class="list-unstyled">
+              <li><span style="font-size: 9pt"><b>Abstract Submission:</b> 20 March 2024</span></li>
+              <li><span style="font-size: 9pt"><b>Paper Submission:</b>
+                  <font color="de8a53" /> 27 March 2024</font>
+                </span></li>
+              <li><span style="font-size: 9pt"><b>Notification:</b> 29 April 2024</span></li>
+              <li><span style="font-size: 9pt"><b>Camera Ready:</b> 06 May 2024</span></li>
+              <li><span style="font-size: 9pt"><b>Workshop:</b>
+                  <font color="de8a53" /> 24 June 2024</font>
+                </span></li>
+            </ul>
+            <p>All deadlines at 23:59:59 <a href="https://www.timeanddate.com/time/zones/aoe" target="_blank">AoE</a>.
+            </p>
+          </div>
+        </div>
+
+        <!--<div class="panel panel-default">-->
+        <!--<div class="panel-body">-->
+        <!--<a class="twitter-timeline"  href="https://twitter.com/search?q=%20%23CrowdRE" data-widget-id="841861466445737984">Tweets about #CrowdRE</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>-->
+        <!--<a class="twitter-timeline" href="https://twitter.com/CrowdreWs?ref_src=twsrc%5Etfw" data-height="250px">Tweets by CrowdreWs</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+        <!--</div>-->
+        <!--</div>-->
+
+      </div>
     </div>
+  </div>
 
-    <!-- Javascript -->          
-    <script type="text/javascript" src="assets/plugins/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
-    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
-    <!-- github activity plugin -->
-    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-    <script type="text/javascript" src="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.js"></script>
-    <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>            
+  <!-- Javascript -->
+  <script type="text/javascript" src="assets/plugins/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
+  <!-- github activity plugin -->
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+  <script type="text/javascript"
+    src="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.js"></script>
+  <!-- custom js -->
+  <script type="text/javascript" src="assets/js/main.js"></script>
 
-    <script>/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */
-    </script>
-  </body>
+  <script>/* <![CDATA[ */(function (d, s, a, i, j, r, l, m, t) { try { l = d.getElementsByTagName('a'); t = d.createElement('textarea'); for (i = 0; l.length - i; i++) { try { a = l[i].href; s = a.indexOf('/cdn-cgi/l/email-protection'); m = a.length; if (a && s > -1 && m > 28) { j = 28 + s; s = ''; if (j < m) { r = '0x' + a.substr(j, 2) | 0; for (j += 2; j < m && a.charAt(j) != 'X'; j += 2)s += '%' + ('0' + ('0x' + a.substr(j, 2) ^ r).toString(16)).slice(-2); j++; s = decodeURIComponent(s) + a.substr(j, m - j) } t.innerHTML = s.replace(/</g, '&lt;').replace(/\>/g, '&gt;'); l[i].href = 'mailto:' + t.value } } catch (e) { } } } catch (e) { } })(document);/* ]]> */
+  </script>
+</body>
+
 </html>
